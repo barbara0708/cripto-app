@@ -1,0 +1,74 @@
+main{
+  background-color: black;
+  width: 390px;
+  padding-left: 1.3rem;
+  padding-top: 2rem;
+}
+.profileImg{
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  margin-right: 10px;
+}
+.txtName{
+  margin-left: 3px;
+}
+.col{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+}
+.profile{
+  width: 95%;
+  height: 2.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.initials{
+  color: #FFF;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+}
+.det-child{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.details{
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.addProfile{
+  width: 1.0625rem;
+  height: 0.9375rem;
+  margin: auto;
+}
+.txt-h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.btnAdd{
+  position:sticky;
+  z-index: 1000;
+  left: 75%;
+  cursor: pointer;
+  bottom: 2%;
+  transition: transform 0.3s ease;
+}
+.btnAdd:hover{
+  transform: scale(1.1);
+}
+.second{
+  color: #FFF;
+}

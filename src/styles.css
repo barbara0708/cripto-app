@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  max-width: 390px;
+  max-height: 844px;
+}
+*{
+  font-family: Poppins;
+  color: #FFF;
+}
+
+.whiteText{
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
